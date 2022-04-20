@@ -1,0 +1,113 @@
+unit UConsultaVersoes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Grids,
+  Vcl.DBGrids, Vcl.ExtCtrls, DConexao, UCadastroVersoes;
+
+type
+  TfrmConsultaDeSubversoes = class(TForm)
+    pnlTitulo: TPanel;
+    pnlPesquisa: TPanel;
+    dbgSistemas: TDBGrid;
+    edtPesquisar: TEdit;
+    pnlBotoes: TPanel;
+    btnSair: TButton;
+    btnExcluir: TButton;
+    btnEditar: TButton;
+    btnIncluir: TButton;
+    btnPesquisar: TButton;
+    cbnTipoDePesquisa: TComboBox;
+    lblPesquisa: TLabel;
+    dtsSubversoes: TDataSource;
+    procedure btnSairClick(Sender: TObject);
+    procedure btnExcluirClick(Sender: TObject);
+    procedure btnIncluirClick(Sender: TObject);
+    procedure btnEditarClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure btnPesquisarClick(Sender: TObject);
+    procedure edtPesquisarChange(Sender: TObject);
+  private
+    procedure Pesquisar(pTexto: String);
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmConsultaDeSubversoes: TfrmConsultaDeSubversoes;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmConsultaDeSubversoes.btnEditarClick(Sender: TObject);
+begin
+  dtmConexao.qryVersoes.Edit;
+  frmCadastroVersoes.ShowModal;
+  dtmConexao.qryVersoes.Refresh;
+end;
+
+procedure TfrmConsultaDeSubversoes.btnExcluirClick(Sender: TObject);
+begin
+  // apaga tudooo     tem que adicionar uma pergunta ao usuario aqui      nas
+
+  if Application.MessageBox('Tem certeza que deseja excluir o registro selecionado?', 'Confirmação', mb_yesNO + mb_iconQuestion + MB_DEFBUTTON2) = idYes
+  then
+  if dtmConexao.qryVersoes.State in [dsBrowse] then
+  begin
+    dtmConexao.qryVersoes.Delete;
+  end;
+end;
+
+procedure TfrmConsultaDeSubversoes.btnSairClick(Sender: TObject);
+begin
+  Close;
+end;
+procedure TfrmConsultaDeSubversoes.btnPesquisarClick(Sender: TObject);
+begin
+  Pesquisar(edtPesquisar.Text);
+end;
+
+procedure  TfrmConsultaDeSubversoes.Pesquisar(pTexto:String);
+var
+  lCampo: String;
+begin
+
+  case cbnTipoDePesquisa.ItemIndex of
+    0:
+      begin
+        lCampo := 'IDCODIGOVERSAO';
+      end;
+          1:
+      begin
+        lCampo := 'DESCRICAOVERSAO';
+      end;
+  end;
+  dtmConexao.qryVersoes.Open('SELECT * FROM VERSOES WHERE '+lCampo +' LIKE '+ QuotedStr('%'+ pTexto+'%') );
+
+end;
+
+procedure TfrmConsultaDeSubversoes.btnIncluirClick(Sender: TObject);
+begin
+
+  dtmConexao.qryVersoes.Insert;
+  frmCadastroVersoes.ShowModal;
+  dtmConexao.qryVersoes.Refresh;
+
+end;
+
+procedure TfrmConsultaDeSubversoes.edtPesquisarChange(Sender: TObject);
+begin
+  Pesquisar(edtPesquisar.Text);
+end;
+
+procedure TfrmConsultaDeSubversoes.FormShow(Sender: TObject);
+begin
+  dtmConexao.qryVersoes.Open;
+end;
+
+end.

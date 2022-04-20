@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/07/05 11:24:21.000.957,=C:\Users\Ranieli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 11:28:36.000.210,=C:\Users\Ranieli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 11:29:42.000.179,D:\Projetos\TCCII - Ranieli\TCCII_RMV.dproj=C:\Users\Ranieli\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2017/08/21 11:29:52.000.699,=D:\Projetos\TCCII - Ranieli\ULogin.pas</Transaction>
+    <Transaction>2017/08/21 13:42:29.000.722,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 13:45:18.000.333,D:\Projetos\TCCII - Ranieli\UMenuPrincipal.pas=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 13:45:18.000.333,D:\Projetos\TCCII - Ranieli\UMenuPrincipal.dfm=D:\Projetos\TCCII - Ranieli\Unit1.dfm</Transaction>
+    <Transaction>2017/08/21 14:37:06.000.962,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 14:42:18.000.311,D:\Projetos\TCCII - Ranieli\Unit1.dfm=D:\Projetos\TCCII - Ranieli\UCadastroVersoes.dfm</Transaction>
+    <Transaction>2017/08/21 14:42:18.000.311,D:\Projetos\TCCII - Ranieli\Unit1.pas=D:\Projetos\TCCII - Ranieli\UCadastroVersoes.pas</Transaction>
+    <Transaction>2017/08/21 15:57:58.000.715,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 16:05:53.000.060,D:\Projetos\TCCII - Ranieli\Unit1.pas=D:\Projetos\TCCII - Ranieli\UCadastroSubversao.pas</Transaction>
+    <Transaction>2017/08/21 16:05:53.000.060,D:\Projetos\TCCII - Ranieli\Unit1.dfm=D:\Projetos\TCCII - Ranieli\UCadastroSubversao.dfm</Transaction>
+    <Transaction>2017/08/21 16:55:13.000.592,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 16:57:12.000.564,D:\Projetos\TCCII - Ranieli\Unit1.dfm=D:\Projetos\TCCII - Ranieli\UCadastroSistemas.dfm</Transaction>
+    <Transaction>2017/08/21 16:57:12.000.564,D:\Projetos\TCCII - Ranieli\Unit1.pas=D:\Projetos\TCCII - Ranieli\UCadastroSistemas.pas</Transaction>
+    <Transaction>2017/08/21 16:57:56.000.549,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 17:00:48.000.838,D:\Projetos\TCCII - Ranieli\Unit1.dfm=D:\Projetos\TCCII - Ranieli\UCadastroUsuarios.dfm</Transaction>
+    <Transaction>2017/08/21 17:00:48.000.838,D:\Projetos\TCCII - Ranieli\Unit1.pas=D:\Projetos\TCCII - Ranieli\UCadastroUsuarios.pas</Transaction>
+    <Transaction>2017/08/30 11:54:30.000.976,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/30 14:49:05.000.687,D:\Projetos\TCCII - Ranieli\UCadastroModificacao.pas=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/30 14:49:05.000.687,D:\Projetos\TCCII - Ranieli\UCadastroModificacao.dfm=D:\Projetos\TCCII - Ranieli\Unit1.dfm</Transaction>
+    <Transaction>2017/08/31 08:48:46.000.959,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/31 08:49:38.000.394,D:\Projetos\TCCII - Ranieli\DConexao.dfm=D:\Projetos\TCCII - Ranieli\Unit1.dfm</Transaction>
+    <Transaction>2017/08/31 08:49:38.000.394,D:\Projetos\TCCII - Ranieli\DConexao.pas=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/31 09:15:08.000.280,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/31 09:25:27.000.434,D:\Projetos\TCCII - Ranieli\UConsultaSistemas.pas=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/08/31 09:25:27.000.434,D:\Projetos\TCCII - Ranieli\UConsultaSistemas.dfm=D:\Projetos\TCCII - Ranieli\Unit1.dfm</Transaction>
+    <Transaction>2017/08/31 09:54:51.000.164,=D:\Projetos\TCCII - Ranieli\UConsultaVersoes.pas</Transaction>
+    <Transaction>2017/09/04 10:33:05.000.076,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/09/04 10:35:14.000.483,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/09/04 10:44:39.000.234,=D:\Projetos\TCCII - Ranieli\UConsultaUsuarios.pas</Transaction>
+    <Transaction>2017/09/04 14:45:46.000.637,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/09/04 14:46:04.000.788,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/09/04 14:53:25.000.710,=D:\Projetos\TCCII - Ranieli\UConsultaSubversoes.pas</Transaction>
+    <Transaction>2017/09/11 08:23:46.000.198,=D:\Projetos\TCCII - Ranieli\dImagens.pas</Transaction>
+    <Transaction>2017/09/11 16:41:52.000.403,=D:\Projetos\TCCII - Ranieli\UConsultaModificacoes.pas</Transaction>
+    <Transaction>2017/10/09 10:16:06.000.737,=D:\Projetos\TCCII - Ranieli\URelease.pas</Transaction>
+    <Transaction>2017/11/07 10:25:00.000.778,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/11/07 10:29:38.000.246,D:\Projetos\TCCII - Ranieli\Unit1.pas=D:\Projetos\TCCII - Ranieli\URelatorio.pas</Transaction>
+    <Transaction>2017/11/07 10:29:38.000.246,D:\Projetos\TCCII - Ranieli\Unit1.dfm=D:\Projetos\TCCII - Ranieli\URelatorio.dfm</Transaction>
+    <Transaction>2017/11/08 16:17:41.000.407,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/11/08 16:19:29.000.426,=D:\Projetos\TCCII - Ranieli\UConsultaClientes.pas</Transaction>
+    <Transaction>2017/11/09 09:26:45.000.266,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/11/09 10:10:17.000.514,D:\Projetos\TCCII - Ranieli\Unit1.dfm=D:\Projetos\TCCII - Ranieli\UCadastroClientes.dfm</Transaction>
+    <Transaction>2017/11/09 10:10:17.000.514,D:\Projetos\TCCII - Ranieli\Unit1.pas=D:\Projetos\TCCII - Ranieli\UCadastroClientes.pas</Transaction>
+    <Transaction>2017/11/09 13:39:03.000.965,=D:\Projetos\TCCII - Ranieli\UEnvioEmailCliente.pas</Transaction>
+    <Transaction>2017/12/03 22:52:51.000.811,=D:\Projetos\TCCII - Ranieli\classes\uClassTypeAtualizador.pas</Transaction>
+    <Transaction>2017/12/03 22:52:53.000.655,=D:\Projetos\TCCII - Ranieli\classes\uLogErros.pas</Transaction>
+    <Transaction>2017/12/03 22:52:53.000.681,=D:\Projetos\TCCII - Ranieli\classes\uLogLoginNuvem.pas</Transaction>
+    <Transaction>2017/12/03 22:52:53.000.548,=D:\Projetos\TCCII - Ranieli\classes\uConfiguracao.pas</Transaction>
+    <Transaction>2017/12/03 22:52:53.000.720,=D:\Projetos\TCCII - Ranieli\classes\uSincronizacaoWebService.pas</Transaction>
+    <Transaction>2017/12/03 22:52:53.000.628,=D:\Projetos\TCCII - Ranieli\classes\uLogAtualizacao.pas</Transaction>
+    <Transaction>2017/12/03 22:52:53.000.582,=D:\Projetos\TCCII - Ranieli\classes\uEmpresa.pas</Transaction>
+    <Transaction>2017/12/03 22:52:53.000.694,=D:\Projetos\TCCII - Ranieli\classes\uLogs.pas</Transaction>
+    <Transaction>2017/12/03 22:55:05.000.048,=D:\Projetos\TCCII - Ranieli\classes\uFuncoes.pas</Transaction>
+    <Transaction>2017/12/03 23:00:44.000.666,=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+    <Transaction>2017/12/03 23:03:03.000.703,D:\Projetos\TCCII - Ranieli\classes\uAtualizacao.pas=D:\Projetos\TCCII - Ranieli\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
